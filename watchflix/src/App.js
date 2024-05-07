@@ -1,11 +1,14 @@
 import './App.css';
+import Authentication from './components/Authentication';
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <h1>watchflix</h1>
+      <Authentication/>
       </header>
+     
     </div>
   );
 }
